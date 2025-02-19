@@ -1,0 +1,9 @@
+{
+	"name": "adftargetadf",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b3aa3e33-c243-4f4c-95b3-72a5bc7c10fc",
+		"tenantId": "4ddd393a-e98a-4404-841f-c4becdd925a5"
+	}
+}
