@@ -52,8 +52,8 @@
 						"referenceName": "ds_source",
 						"type": "DatasetReference",
 						"parameters": {
-							"filename": {
-								"value": "@pipeline().parameters.pipelinefilename",
+							"storageaccname": {
+								"value": "@pipeline().parameters.pipelinestorageaccount",
 								"type": "Expression"
 							}
 						}
@@ -64,8 +64,8 @@
 						"referenceName": "ds_target",
 						"type": "DatasetReference",
 						"parameters": {
-							"filename": {
-								"value": "@pipeline().parameters.pipelinefilename",
+							"storageaccname": {
+								"value": "@pipeline().parameters.pipelinestorageaccount",
 								"type": "Expression"
 							}
 						}
@@ -74,7 +74,7 @@
 			}
 		],
 		"parameters": {
-			"pipelinefilename": {
+			"pipelinestorageaccount": {
 				"type": "string"
 			}
 		},
